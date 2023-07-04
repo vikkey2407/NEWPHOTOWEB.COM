@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTOS</title>
+</head>
+<MARQUEE DIRECTION= RIGHT><h1 >WELCOMES TO NEW PHOTO HUB</h1></MARQUEE>
+<A href="C:\Users\Admin\Desktop\STACK DEV\NEW PHOTO WEB\MYVIDEO.HTML">MY VIDEOS</A>
+<body>
+    <div class="CONTAINER">
+    <div class="box"><img src="./asset/project/image (1).jpeg" alt="">1</div>
+   <div class="box"><img src="./asset/project/image (2).jpeg" alt="">2</div>
+    <div class="box"><img src="./asset/project/image (3).jpeg" alt="">3</div>
+    <div class="box"><img src="./asset/project/image (4).jpeg" alt="">4</div>
+    <marquee><div class="box"><img src="./asset/project/image (10).jpeg" alt="">5</div></marquee>
+    <div class="box"><img src="./asset/project/image (7).jpeg"  alt="">6</div>
+    <div class="box"><img src="./asset/project/image (8).jpeg" alt="">7</div>
+    <div class="box"><img src="./asset/project/image (9).jpeg" alt="">8</div>
+    <div class="box"><img src="./asset/project/image (5).jpeg" alt="">9</div>
+    <div class="box"><img src="./asset/project/image (6).jpeg" alt="">10</div>    
+    </div>
+    <style>
+        @keyframes animation
+        {
+            FROM{
+                background-image: url(./asset/project/image\ \(5\).jpeg);}
+                TO{background-image: url(./asset/project/image\ \(3\).jpeg);}
+            }
+            
+        .CONTAINER{
+            background-image: url(./asset/project/image\ \(5\).jpeg);
+            background-attachment: fixed;
+            background-color: aliceblue;
+            padding: 10P;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            justify-content: space-around;   
+            animation-name: CONTAINER;
+            animation-duration:20s;
+            animation-iteration-count: unset;
+            animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+        .box{
+            opacity: 0.8;
+            padding: 1px;
+        }
+        .box:hover {
+            opacity: 1;
+            transition: .9s;
+        }
+    </style>
+   
+   <!----- <style>
+        .CONTAINER{
+            padding: 1px;
+            width: 1000px;
+            height: 1000px;
+        }
+        .CONTAINER{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content:space-around;
+        }
+    
+        
+    </style> --->
+</body>
+</html>
